@@ -1,0 +1,50 @@
+.itemContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+.itemImg {
+  width: 30vw;
+  height: 30vw;
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoContent>p {
+  color: black;
+}
+
+.buttonBuy {
+  width: 25vw;
+  height: 5vw;
+  font-size: 1.5vw;
+  margin-bottom: 2rem;
+}
+
+.remove {
+  width: 15vw;
+  height: 3vw;
+  font-size: 1vw;
+}
+
+.name {
+  width: 20vw;
+  font-size: 1.9vw;
+  word-wrap: break-word;
+}
+
+.description {
+  font-size: 1.2vw;
+  width: 20vw;
+}
+
+.price {
+  font-size: 1.8vw;
+}

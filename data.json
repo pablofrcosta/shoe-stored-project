@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "CALCADOS LGHT LIGHT",
+    "cover": "https://m.media-amazon.com/images/I/516qM3xa0DL._AC_UL320_.jpg",
+    "price": 89.99,
+    "quantity": 10,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 2,
+    "name": "Tênis Adidas",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/9808214D.jpg",
+    "price": 469.99,
+    "quantity": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 3,
+    "name": "Tênis Nike Air",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/96582031A1.jpg",
+    "price": 679.99,
+    "quantity": 15,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 4,
+    "name": "Tênis Infantil Freeday Flip Eco",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/9779665CA1.jpg",
+    "price": 109.99,
+    "quantity": 23,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 5,
+    "name": "Tênis adidas Advantage Homem Aranha",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/97976449A1.jpg",
+    "price": 189.99,
+    "quantity": 12,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 6,
+    "name": "Tênis Puma Carina Lux L BDP - Feminino",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/94962101.jpg",
+    "price": 319.99,
+    "quantity": 15,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 7,
+    "name": "Tênis Fila Float Prime",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/9758073H.jpg",
+    "price": 349.99,
+    "quantity": 21,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 8,
+    "name": "Tênis adidas Galaxy Star - Masculino",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/97304159.jpg",
+    "price": 239.99,
+    "quantity": 2,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    "id": 9,
+    "name": "Tênis Asics Gel Excite 8 - Masculino",
+    "cover": "https://imgcentauro-a.akamaihd.net/768x768/96405950A1.jpg",
+    "price": 249.99,
+    "quantity": 52,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  }
+]
