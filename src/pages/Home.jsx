@@ -32,7 +32,7 @@ export default function Home() {
               <p className="name">{item.name}</p>
               <p className="description">{item.description}</p>
               <p className="price">R${item.price}</p>
-              <button onClick={() => addCart(item)} style={{ fontSize: "1.5vw" }}>comprar</button>
+              <button onClick={() => addCart(item)} style={{ fontSize: "1.5vw" } }>comprar</button>
             </div>
           </div>
         ))}

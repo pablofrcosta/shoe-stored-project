@@ -213,6 +213,14 @@ section {
   height: auto;
 }
 
+.itemContent>button {
+  transition: background-color 0.5s ease;
+}
+
+.itemContent>button:active {
+  background-color: grey;
+}
+
 .itemContent>p {
   color: black;
 }
@@ -545,6 +553,11 @@ footer>h1 {
 
   button {
     width: 40vmin;
+  }
+
+  .itemContent>button:hover {
+    width: 40vmin;
+    background-color: greenyellow;
   }
 
   .itemImg {
