@@ -1,0 +1,18 @@
+@media(max-width: 740px) {
+  .header {
+    height: 13vmin;
+  }
+
+  .nav {
+    height: 13vmin;
+  }
+
+  .logo {
+    font-size: 3vmin;
+  }
+
+  .title {
+    font-size: 3vmin;
+  }
+}
+

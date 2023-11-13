@@ -68,11 +68,11 @@ export default function CartContent() {
               <div>
                 <p className="nameCart">{item.name}</p>
                 <p className="descriptionCart">{item.description}</p>
-                <p className="priceCart">R${item.price * itemQuantities[item.id]?.quantity}</p>
+                <p className="priceCart">R${(item.price * itemQuantities[item.id]?.quantity).toFixed(2)}</p>
                 <hr />
-                <div>
-                  <label htmlFor={`quantity-${item.id}`} style={{ fontSize: "1.2vw", marginRight: "2rem" }}>Quantidade:</label>
-                  <button onClick={() => decreaseQuantity(item.id)} style={{ borderRadius: "2rem" }}>-</button>
+                <div className='quantityContainer'>
+                  <label htmlFor={`quantity-${item.id}`} style={{ marginRight: "2rem" }}>Quantidade:</label>
+                  <button className='less' onClick={() => decreaseQuantity(item.id)} style={{ borderRadius: "2rem" }}>-</button>
                   <input
                     type="number"
                     name={`quantity-${item.id}`}
@@ -82,8 +82,8 @@ export default function CartContent() {
                     className="inputQuantity"
                     readOnly
                   />
-                  <button onClick={() => increaseQuantity(item.id)} style={{ borderRadius: "2rem" }}>+</button>
-                  <button onClick={() => removeItem(item.id)}>remover</button>
+                  <button className="plus" onClick={() => increaseQuantity(item.id)} style={{ borderRadius: "2rem" }}>+</button>
+                  <button className="remove" onClick={() => removeItem(item.id)}>remover</button>
                 </div>
               </div>
             </div>
@@ -99,6 +99,6 @@ export default function CartContent() {
         <h1 style={{ color: "black" }}>{`Valor total`}<p style={{ color: "black" }}>R${totalPrice}</p></h1>
         <button>Finalizar</button>
       </div>
-    </div>
+    </div >
   )
 }

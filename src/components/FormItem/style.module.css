@@ -21,7 +21,7 @@
   display: flex;
   height: 3vw;
   width: 20vw;
-  font-size: 3rem;
+  font-size: 2vmin;
 
 }
 
@@ -30,6 +30,7 @@
   justify-content: center;
   align-items: center;
   width: 86vw;
+  height: 20vw;
   font-size: 4rem;
 }
 
@@ -42,6 +43,125 @@
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 15vw;
   height: 3vw;
+}
+
+@media(max-width:858px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5vw;
+  }
+
+  .label {
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .inputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vmin;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .inputContainer>div {
+    width: 20vmin;
+  }
+
+  .input {
+    display: flex;
+    height: 7vw;
+    width: 40vw;
+    font-size: 2vmin;
+
+  }
+
+  .textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86vw;
+    height: 20vw;
+    font-size: 1rem;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    width: 15vw;
+    height: 3vw;
+  }
+}
+
+@media(max-width:536px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0vw;
+  }
+
+  .label {
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 1rem;
+  }
+
+  .inputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85vmin;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .inputContainer>div {
+    width: 30vmin;
+  }
+
+  .input {
+    display: flex;
+    height: 8vw;
+    width: 40vw;
+    font-size: 2vmin;
+
+  }
+
+  .textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86vw;
+    height: 30vw;
+    font-size: 1rem;
+  }
+
+  .textareaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    width: 20vw;
+    height: 6vw;
+  }
 }

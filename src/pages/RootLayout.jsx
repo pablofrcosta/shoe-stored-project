@@ -1,29 +1,14 @@
-import { Link, Outlet } from "react-router-dom";
-import useStore from "../hooks/useStore";
+import { Outlet } from "react-router-dom";
 import FooterInfo from "../components/FooterInfo";
+import Header from "../components/Header";
 
 
 export default function RootLayout() {
-  const { IsLoggedIn } = useStore()
 
 
   return (
     <div className="homeContainer">
-      <header>
-        <nav>
-          <Link to={"/"}><h1>Logo</h1></Link>
-          <div>
-            <Link to={"/"}><p>FootWear</p></Link>
-          </div>
-          <div>
-            <Link to={"/login"} style={{ color: 'white' }}>LOGIN</Link>
-            <Link to={"/cart"} style={{ color: 'white' }}>CART</Link>
-            {IsLoggedIn && (
-              <Link to={"/items"}>items</Link>
-            )}
-          </div>
-        </nav>
-      </header>
+      <Header />
       <div>
         <Outlet />
       </div>
